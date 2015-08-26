@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED95304C1B8D59F900FCF724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED95304B1B8D59F900FCF724 /* AppDelegate.swift */; };
+		ED95304E1B8D59F900FCF724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED95304D1B8D59F900FCF724 /* ViewController.swift */; };
+		ED9530511B8D59F900FCF724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED95304F1B8D59F900FCF724 /* Main.storyboard */; };
+		ED9530531B8D59F900FCF724 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9530521B8D59F900FCF724 /* Images.xcassets */; };
+		ED9530561B8D59F900FCF724 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED9530541B8D59F900FCF724 /* LaunchScreen.xib */; };
+		ED9530621B8D59F900FCF724 /* WebRTCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9530611B8D59F900FCF724 /* WebRTCTests.swift */; };
+		ED9530721B8D5B1C00FCF724 /* SkyWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9530711B8D5B1C00FCF724 /* SkyWay.framework */; };
+		ED95307B1B8D5F1A00FCF724 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED95307A1B8D5F1A00FCF724 /* AudioToolbox.framework */; };
+		ED95307D1B8D5F2000FCF724 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED95307C1B8D5F2000FCF724 /* AVFoundation.framework */; };
+		ED95307F1B8D5F2500FCF724 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED95307E1B8D5F2500FCF724 /* CoreMedia.framework */; };
+		ED9530811B8D5F2B00FCF724 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9530801B8D5F2B00FCF724 /* CoreGraphics.framework */; };
+		ED9530831B8D5F3200FCF724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9530821B8D5F3200FCF724 /* Foundation.framework */; };
+		ED9530851B8D5F3700FCF724 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9530841B8D5F3700FCF724 /* GLKit.framework */; };
+		ED9530871B8D5F3E00FCF724 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9530861B8D5F3E00FCF724 /* SystemConfiguration.framework */; };
+		ED9530891B8D5F4700FCF724 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9530881B8D5F4700FCF724 /* libc++.dylib */; };
+		ED95308B1B8D5F5600FCF724 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED95308A1B8D5F5600FCF724 /* libstdc++.6.0.9.dylib */; };
+		ED95308D1B8D5F5E00FCF724 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED95308C1B8D5F5E00FCF724 /* libsqlite3.dylib */; };
+		ED95308F1B8D5F6700FCF724 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED95308E1B8D5F6700FCF724 /* libicucore.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED95305C1B8D59F900FCF724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED95303E1B8D59F900FCF724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED9530451B8D59F900FCF724;
+			remoteInfo = WebRTC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED9530461B8D59F900FCF724 /* WebRTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebRTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED95304A1B8D59F900FCF724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED95304B1B8D59F900FCF724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED95304D1B8D59F900FCF724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED9530501B8D59F900FCF724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED9530521B8D59F900FCF724 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED9530551B8D59F900FCF724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED95305B1B8D59F900FCF724 /* WebRTCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebRTCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9530601B8D59F900FCF724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9530611B8D59F900FCF724 /* WebRTCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRTCTests.swift; sourceTree = "<group>"; };
+		ED9530711B8D5B1C00FCF724 /* SkyWay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SkyWay.framework; path = WebRTC/SkyWay.framework; sourceTree = "<group>"; };
+		ED9530731B8D5B4200FCF724 /* WebRTC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebRTC-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED95307A1B8D5F1A00FCF724 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ED95307C1B8D5F2000FCF724 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ED95307E1B8D5F2500FCF724 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		ED9530801B8D5F2B00FCF724 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED9530821B8D5F3200FCF724 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED9530841B8D5F3700FCF724 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		ED9530861B8D5F3E00FCF724 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ED9530881B8D5F4700FCF724 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		ED95308A1B8D5F5600FCF724 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		ED95308C1B8D5F5E00FCF724 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		ED95308E1B8D5F6700FCF724 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED9530431B8D59F900FCF724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED95308F1B8D5F6700FCF724 /* libicucore.dylib in Frameworks */,
+				ED95308D1B8D5F5E00FCF724 /* libsqlite3.dylib in Frameworks */,
+				ED95308B1B8D5F5600FCF724 /* libstdc++.6.0.9.dylib in Frameworks */,
+				ED9530891B8D5F4700FCF724 /* libc++.dylib in Frameworks */,
+				ED9530871B8D5F3E00FCF724 /* SystemConfiguration.framework in Frameworks */,
+				ED9530851B8D5F3700FCF724 /* GLKit.framework in Frameworks */,
+				ED9530831B8D5F3200FCF724 /* Foundation.framework in Frameworks */,
+				ED9530811B8D5F2B00FCF724 /* CoreGraphics.framework in Frameworks */,
+				ED95307F1B8D5F2500FCF724 /* CoreMedia.framework in Frameworks */,
+				ED95307D1B8D5F2000FCF724 /* AVFoundation.framework in Frameworks */,
+				ED95307B1B8D5F1A00FCF724 /* AudioToolbox.framework in Frameworks */,
+				ED9530721B8D5B1C00FCF724 /* SkyWay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9530581B8D59F900FCF724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED95303D1B8D59F900FCF724 = {
+			isa = PBXGroup;
+			children = (
+				EDDB233A1B8D6ECB00221653 /* Framework */,
+				ED9530481B8D59F900FCF724 /* WebRTC */,
+				ED95305E1B8D59F900FCF724 /* WebRTCTests */,
+				ED9530471B8D59F900FCF724 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED9530471B8D59F900FCF724 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED9530461B8D59F900FCF724 /* WebRTC.app */,
+				ED95305B1B8D59F900FCF724 /* WebRTCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED9530481B8D59F900FCF724 /* WebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				ED95304B1B8D59F900FCF724 /* AppDelegate.swift */,
+				ED95304D1B8D59F900FCF724 /* ViewController.swift */,
+				ED95304F1B8D59F900FCF724 /* Main.storyboard */,
+				ED9530521B8D59F900FCF724 /* Images.xcassets */,
+				ED9530541B8D59F900FCF724 /* LaunchScreen.xib */,
+				ED9530491B8D59F900FCF724 /* Supporting Files */,
+				ED9530731B8D5B4200FCF724 /* WebRTC-Bridging-Header.h */,
+			);
+			path = WebRTC;
+			sourceTree = "<group>";
+		};
+		ED9530491B8D59F900FCF724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED95304A1B8D59F900FCF724 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED95305E1B8D59F900FCF724 /* WebRTCTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED9530611B8D59F900FCF724 /* WebRTCTests.swift */,
+				ED95305F1B8D59F900FCF724 /* Supporting Files */,
+			);
+			path = WebRTCTests;
+			sourceTree = "<group>";
+		};
+		ED95305F1B8D59F900FCF724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED9530601B8D59F900FCF724 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDDB233A1B8D6ECB00221653 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				ED95308E1B8D5F6700FCF724 /* libicucore.dylib */,
+				ED95308C1B8D5F5E00FCF724 /* libsqlite3.dylib */,
+				ED95308A1B8D5F5600FCF724 /* libstdc++.6.0.9.dylib */,
+				ED9530881B8D5F4700FCF724 /* libc++.dylib */,
+				ED9530861B8D5F3E00FCF724 /* SystemConfiguration.framework */,
+				ED9530841B8D5F3700FCF724 /* GLKit.framework */,
+				ED9530821B8D5F3200FCF724 /* Foundation.framework */,
+				ED9530801B8D5F2B00FCF724 /* CoreGraphics.framework */,
+				ED95307E1B8D5F2500FCF724 /* CoreMedia.framework */,
+				ED95307C1B8D5F2000FCF724 /* AVFoundation.framework */,
+				ED95307A1B8D5F1A00FCF724 /* AudioToolbox.framework */,
+				ED9530711B8D5B1C00FCF724 /* SkyWay.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED9530451B8D59F900FCF724 /* WebRTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9530651B8D59F900FCF724 /* Build configuration list for PBXNativeTarget "WebRTC" */;
+			buildPhases = (
+				ED9530421B8D59F900FCF724 /* Sources */,
+				ED9530431B8D59F900FCF724 /* Frameworks */,
+				ED9530441B8D59F900FCF724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebRTC;
+			productName = WebRTC;
+			productReference = ED9530461B8D59F900FCF724 /* WebRTC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED95305A1B8D59F900FCF724 /* WebRTCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9530681B8D59F900FCF724 /* Build configuration list for PBXNativeTarget "WebRTCTests" */;
+			buildPhases = (
+				ED9530571B8D59F900FCF724 /* Sources */,
+				ED9530581B8D59F900FCF724 /* Frameworks */,
+				ED9530591B8D59F900FCF724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED95305D1B8D59F900FCF724 /* PBXTargetDependency */,
+			);
+			name = WebRTCTests;
+			productName = WebRTCTests;
+			productReference = ED95305B1B8D59F900FCF724 /* WebRTCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED95303E1B8D59F900FCF724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Koji Murata";
+				TargetAttributes = {
+					ED9530451B8D59F900FCF724 = {
+						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					ED95305A1B8D59F900FCF724 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = ED9530451B8D59F900FCF724;
+					};
+				};
+			};
+			buildConfigurationList = ED9530411B8D59F900FCF724 /* Build configuration list for PBXProject "WebRTC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED95303D1B8D59F900FCF724;
+			productRefGroup = ED9530471B8D59F900FCF724 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED9530451B8D59F900FCF724 /* WebRTC */,
+				ED95305A1B8D59F900FCF724 /* WebRTCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED9530441B8D59F900FCF724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9530511B8D59F900FCF724 /* Main.storyboard in Resources */,
+				ED9530561B8D59F900FCF724 /* LaunchScreen.xib in Resources */,
+				ED9530531B8D59F900FCF724 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9530591B8D59F900FCF724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED9530421B8D59F900FCF724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED95304E1B8D59F900FCF724 /* ViewController.swift in Sources */,
+				ED95304C1B8D59F900FCF724 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9530571B8D59F900FCF724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9530621B8D59F900FCF724 /* WebRTCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED95305D1B8D59F900FCF724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED9530451B8D59F900FCF724 /* WebRTC */;
+			targetProxy = ED95305C1B8D59F900FCF724 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED95304F1B8D59F900FCF724 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED9530501B8D59F900FCF724 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED9530541B8D59F900FCF724 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED9530551B8D59F900FCF724 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED9530631B8D59F900FCF724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		ED9530641B8D59F900FCF724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		ED9530661B8D59F900FCF724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebRTC",
+				);
+				INFOPLIST_FILE = WebRTC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WebRTC/WebRTC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		ED9530671B8D59F900FCF724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebRTC",
+				);
+				INFOPLIST_FILE = WebRTC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WebRTC/WebRTC-Bridging-Header.h";
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		ED9530691B8D59F900FCF724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebRTCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebRTC.app/WebRTC";
+			};
+			name = Debug;
+		};
+		ED95306A1B8D59F900FCF724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebRTCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebRTC.app/WebRTC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED9530411B8D59F900FCF724 /* Build configuration list for PBXProject "WebRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9530631B8D59F900FCF724 /* Debug */,
+				ED9530641B8D59F900FCF724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9530651B8D59F900FCF724 /* Build configuration list for PBXNativeTarget "WebRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9530661B8D59F900FCF724 /* Debug */,
+				ED9530671B8D59F900FCF724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9530681B8D59F900FCF724 /* Build configuration list for PBXNativeTarget "WebRTCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9530691B8D59F900FCF724 /* Debug */,
+				ED95306A1B8D59F900FCF724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED95303E1B8D59F900FCF724 /* Project object */;
+}
